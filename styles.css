@@ -1,0 +1,52 @@
+/* General Body Styling */
+body {
+    background-color: #f8f9fa; /* Light gray background */
+    color: #212529; /* Dark gray for general text */
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #343a40 !important; /* Dark gray */
+}
+.navbar .navbar-brand, .navbar .nav-link {
+    color: #000000 !important; /* White text for the navbar */
+}
+.navbar .nav-link:hover {
+    color: #0b5ed7 !important; /* Gold on hover */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #343a40; /* Dark gray for all headings */
+}
+
+/* Card Component */
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* White background for cards */
+}
+.card-title {
+    color: #007bff; /* Bootstrap primary blue */
+}
+.card-text {
+    color: #212529; /* Standard dark gray text */
+}
+
+/* Button Styling */
+.btn-success {
+    background-color: #28a745; /* Green */
+    border: none;
+    color: #ffffff; /* White text */
+}
+.btn-success:hover {
+    background-color: #218838; /* Darker green */
+}
+.btn-primary {
+    background-color: #007bff; /* Blue */
+    border: none;
+    color: #ffffff; /* White text */
+}
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue */
+}
